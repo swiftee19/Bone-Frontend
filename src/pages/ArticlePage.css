@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f0;
+  }
+  
+  .articles-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001d5b;
+    color: white;
+    padding: 15px 25px;
+    z-index: 1000;
+  }
+  
+  .search-bar {
+    width: 40%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .navbar-icons span {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #002d74;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .menu-section {
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  
+  .logout {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #ff7043;
+    cursor: pointer;
+  }
+  
+  .menu .active {
+    color: #ff7043;
+    font-weight: bold;
+  }
+  
+  .content {
+    margin-top: 60px; 
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: #f9f9f0;
+    box-sizing: border-box;
+  }
+  
+  .articles-header {
+    margin: 0;
+    font-size: 2rem;
+    color: #002d74;
+    margin-bottom: 20px;
+  }
+  
+  .sub-header {
+    color: gray;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .article-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .article-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .article-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .article-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    color: #001d5b;
+  }
+  
+  .article-card p {
+    font-size: 0.95rem;
+    color: gray;
+    line-height: 1.4;
+  }
+  

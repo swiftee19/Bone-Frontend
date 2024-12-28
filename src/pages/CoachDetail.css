@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f0;
+    box-sizing: border-box;
+  }
+  
+  .home-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001d5b;
+    color: white;
+    padding: 15px 25px;
+    z-index: 1000;
+  }
+  
+  .search-bar {
+    width: 40%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .navbar-icons span {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  
+  .sidebar {
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #002d74;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  
+  .menu-section {
+    margin-top: 25px;
+    font-weight: bold;
+  }
+  
+  .logout {
+    margin-top: 40px;
+    font-weight: bold;
+    color: #ff7043;
+    cursor: pointer;
+  }
+  
+  
+  .content {
+    margin-top: 60px; 
+    margin-left: 250px; 
+    padding: 20px;
+    background-color: #f9f9f0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
+  }
+  
+  .carousel img {
+    width: 50%;
+  }
+  
+  .carousel-text {
+    padding: 20px;
+    width: 50%;
+  }
+  
+  .to-do-trending {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .to-do-list,
+  .trending {
+    flex: 1;
+  }
+  
+  .to-do-card,
+  .trending-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+  
+  .to-do-card h4,
+  .trending-card h4 {
+    background-color: #ff7043;
+    color: white;
+    padding: 12px;
+    margin: -20px -20px 15px;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .trending-card h4 {
+    background-color: #576cd6;
+  }
+  
+  .view-all {
+    text-align: right;
+    color: #001d5b;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  

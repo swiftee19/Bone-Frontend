@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001d5b;
+    color: white;
+    padding: 15px 25px;
+    z-index: 1000;
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f9f9f0;
+    display: block !important;
+    place-items: initial !important;
+  }
+  
+  #root {
+    min-height: 100vh;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  input {
+    color: #000;
+  }
+  
+  
+  .flex {
+    display: flex !important;
+  }
+  
+  .justify-center {
+    justify-content: center !important;
+  }
+  
+  .items-center {
+    align-items: center !important;
+  }
